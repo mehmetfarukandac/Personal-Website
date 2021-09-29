@@ -1,0 +1,200 @@
+/*CSS Dosyası*/
+
+/*Boşlukları sıfırla*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*Sayfayı Ayarla*/
+body{
+    background: #383A3E;
+}
+#sayfa{
+    width: 100%;
+    min-height: 700px;
+    margin: auto;
+}
+
+/*Ana Menu*/
+#anamenu{   
+    width: 100%;
+    height: 52px;
+    background-color: #11A3FA;
+    background: linear-gradient(45deg, #11A3FA 65%, #383A3E  65%);
+    border-top-left-radius:55px ;
+}
+
+#anamenu ul{
+    list-style-type: none;
+}
+#anamenu ul li{
+    float: left;
+    text-decoration: none;
+    position: relative;
+    left: 380px;
+    top: 15px;
+    margin-right: 40px;
+}
+
+#anamenulink{
+    color: white;
+    font-family: 'Orbitron',sans sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: center;
+}
+#anamenulink:hover{
+    color: #C53C1B ;
+}
+/*İçerik ve yan menu kodları*/
+#solyanmenu{
+    width: 15%;
+    min-height: 600px;
+    float: left;
+    background: #11A3FA;
+}
+/*logo*/
+#solyanmenu > #logo{
+    width: 150px;
+    height: 150px;
+    padding: 35px;
+    float: left;
+}
+#logoimage{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+
+#solyanmenu > h4{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -30px;
+}
+
+/*ICON kodları*/
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    position: relative;
+    top: -20px;
+    margin-right: 30px;
+    float: right;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-instagram {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  /* github */
+  .fa-github {
+    background: #000000;
+    color: white;
+  }
+  
+  /* linkedin */
+  .fa-linkedin {
+    background: #3B5998;
+    color: white;
+  }
+  /*Sayfa içerik Alanı*/
+#icerik{
+    width: 69%;
+    min-height: 600px;
+    float: left;
+    background: #080620;
+    background: linear-gradient(90deg, #080620 0%, rgba(45,74,253,0.0003823871345413) 100%);
+    clip-path: polygon(0% 0%, 75.7% 0%, 100% 50%, 75.7% 100%, 0% 100%);
+}
+/*Sayfa Sağ Yan Menu Alanı*/
+#yanmenu{
+    width: 15%;
+    min-height: 500px;
+    float: left;
+    background-color: #383A3E;
+    position: relative;
+    top: 50px;
+}
+
+#yanmenu > h3{
+    color: rgb(219, 217, 217);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    position: relative;
+    top: 220px;
+    left: 15px;
+}
+
+/*paragraf düzenleme*/
+
+.baslik1{
+    color: rgb(219, 217, 217);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    left: 200px;
+}
+.baslik{
+    color: rgb(219, 217, 217);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    left: 10px;
+    text-align: center;
+}
+#icerik > p{
+    color: rgb(219, 217, 217);
+    position: relative;
+    left: 50px;
+}
+
+#yanmenu > .baslik{
+    position: relative;
+    top: 150px;
+}
+#yanmenu > P{
+    position: relative;
+    top: 150px;
+}
+
+/*Alt Menu*/
+
+#altmenu{
+    width: 100%;
+    height: 68px;
+    float: left;
+    background: #11A3FA;
+    background: linear-gradient(135deg, #11A3FA 64.5%, #383A3E  64.5%);
+    text-align: center;
+    border-bottom-left-radius: 55px;
+}
+#altmenu > #copyRighth6{
+    color: rgb(219, 217, 217);
+    text-align: center;
+    font-size: X-large;
+    font-weight: bolder;
+    position: relative;
+    top: 30px;
+    right:300px;
+}
+
+/*Form biçimlendirme*/
+

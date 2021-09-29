@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Mehmet Faruk Andaç'ın Kişisel Webitesi</title>
+    <meta name="description" content="Mehmet Faruk Andaç'ın Kişisel Webitesi.Burada Cv bilgileri yer alıyor.">
+    <meta name="keywords" content="Mehmet, Faruk, Andaç ,CV,html,css,js,javascript,plc ">
+    <!-- Add style.css  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+#submitButton{
+  font-weight: bolder;
+  width: 100px;
+  display: inline-block;
+  padding: 3px 6px;
+  background: #11A3FA;
+  color: #fff;
+  transition: .5s;
+  margin-right: 5px;
+  border-radius: 50px;
+}
+#submitButton:hover {
+  background: #03e9f4; ;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 2px #11A3FA,
+              0 0 4px #11A3FA,
+              0 0 8px #11A3FA,
+              0 0 16px #11A3FA;
+}
+#resetButton{
+  position: relative;
+  display: inline-block;
+  padding: 3px 6px;
+  background: #C53C1B ;
+  color: #fff;
+  transition: .5s;
+  margin-right: 5px;
+  border-radius: 50px;
+  width: 100px;
+  font-weight: bolder;
+}
+#resetButton:hover{
+    background: red; ;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 2px #C53C1B,
+              0 0 4px #C53C1B,
+              0 0 8px #C53C1B,
+              0 0 16px #C53C1B;
+}
+
+#contactForm{
+    position: absolute;
+    left:32%;
+    top: 450px;
+}
+
+#contactFormTable{
+    color: white;
+}
+#form{
+    position: relative;
+    top: 60px;
+    right: 600px;
+    float: right;
+    display: flex;
+}
+
+input[type="text"]{
+    border-radius: 50px;
+    border-color: rgba(187,45,253,1);
+    margin-bottom: 7px;
+}
+input[type="email"]{
+    border-radius: 50px;
+    border-color: rgba(187,45,253,1);
+    margin-bottom: 7px;
+}
+textarea{
+    border-radius: 50px;
+    border-color: rgba(187,45,253,1);
+    margin-bottom: 7px;
+}
+    </style>
+</head>
+
+<body>
+    <div id="sayfa">
+        <nav id="anamenu">
+            <ul>
+                <li><a id="anamenulink" href="index.html">Anasayfa</a></li>
+                <li><a id="anamenulink" href="egitim.html">Eğitimler</a></li>
+                <li><a id="anamenulink" href="https://github.com/mehmetfarukandac1" target="_blank">Projelerim</a></li>
+                <li><a id="anamenulink" href="iletisim.html">İletişim</a></li>
+            </ul>
+        </nav>
+        <aside id="solyanmenu">
+            <div id="logo">
+                <a href="index.html">
+                    <img id="logoimage" src="resimler/face.jpg" alt="Mehmet Faruk Andaç" title="Mehmet Faruk Andaç">
+                </a>
+            </div>
+            <h4>MEHMET FARUK ANDAÇ</h4>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+        </aside>
+        <article id="icerik">
+            <br><br><br>
+
+            <form name="infoForm" id="infoForm" class="infoForm" action="" >
+                <table style="color: white; text-align: center; position: relative; left: 30%;">
+                    <tr>
+                        <td>
+                            <h1>İletişim Bilgilerim</h1>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Adress:</td>
+                    </tr>
+                    <tr>
+                        <td>--------------</td>
+                    </tr>
+                    <tr>
+                        <td>Telefon:</td>
+                    </tr>
+                    <tr>
+                        <td>--------------</td>
+                    </tr>
+                    <tr>
+                        <td>E-Mail:</td>
+                    </tr>
+                    <tr>
+                        <td>farukandac@outlook.com</td>
+                    </tr>
+                    <tr>
+                        <td>E-Mail(2):</td>
+                    </tr>
+                    <tr>
+                        <td>mehmetandac@stu.aydin.edu.tr</td>
+                    </tr>
+                </table>
+            </form>
+            <br><br><br>
+<hr style="border:1px solid #11A3FA;background-color: #11A3FA;">
+            <form name="contactForm" id="contactForm" class="contactForm" action="">
+                <table id="contactFormTable">
+                    <tr>
+                        <td><label for="">Ad Soyad:</label></td>
+                        <td><input type="text" name="" id=""></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">E-mail:</label></td>
+                        <td><input type="email" name="" id=""></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Mesaj:</label></td>
+                        <td><textarea name="" id="" cols="30" rows="4"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="submit" name="" id="submitButton"><input type="reset" name="" id="resetButton"></td>
+                    </tr>
+                </table>
+            </form>
+        </article>
+        <aside id="yanmenu">
+            <h1 class="baslik">Projelerim</h1>
+            <h3>proje 1</h3>
+            <br>
+            <h3>proje 2</h3>
+            <br>
+            <h3>proje 3</h3>
+            <br>
+            <h3>proje 4</h3>
+            <br>
+            <h3>proje 5</h3>
+            <br>
+            <h3>proje 6</h3>
+        </aside>
+        <footer id="altmenu">
+            <h6 id="copyRighth6">Designed by ANDAC with only HTML5 & CSS3 &copy;</h6>
+            <a href="https://www.instagram.com/mfarukandac1/" target="_blank" class="fa fa-instagram"></a>
+            <a href="https://twitter.com/mfarukandac1" target="_blank" class="fa fa-twitter"></a>
+            <a href="https://github.com/andac1" target="_blank" class="fa fa-github"></a>
+            <a href="www.linkedin.com/in/mehmet-faruk-andac" target="_blank" class="fa fa-linkedin"></a>
+        </footer>
+    </div>
+
+</body>
+
+</html>
